@@ -12,7 +12,6 @@ CORS(app)
 
 nltk.data.path.append(os.path.join(os.path.dirname(__file__), 'nltk_data'))
 
-# Now you can safely call the Punkt tokenizer
 try:
     nltk.data.find('tokenizers/punkt')
 except LookupError:
